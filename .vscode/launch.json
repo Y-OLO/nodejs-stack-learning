@@ -4,11 +4,12 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "node",
             "request": "launch",
             "name": "1_buffer通过from创建",
-            "program": "${workspaceFolder}/1_buffer_from.js",
+            "program": "${workspaceFolder}/Buffer/1_buffer_from.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -17,7 +18,7 @@
             "type": "node",
             "request": "launch",
             "name": "2_buffer通过alloc创建",
-            "program": "${workspaceFolder}/2_buffer_alloc.js",
+            "program": "${workspaceFolder}/Buffer/2_buffer_alloc.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -26,7 +27,7 @@
             "type": "node",
             "request": "launch",
             "name": "3_buffer通过allocUnsafe创建",
-            "program": "${workspaceFolder}/3_buffer_allocUnsafe.js",
+            "program": "${workspaceFolder}/Buffer/3_buffer_allocUnsafe.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -35,7 +36,7 @@
             "type": "node",
             "request": "launch",
             "name": "4_buffer_编码",
-            "program": "${workspaceFolder}/4_buffer_编码.js",
+            "program": "${workspaceFolder}/Buffer/4_buffer_编码.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -44,7 +45,7 @@
             "type": "node",
             "request": "launch",
             "name": "5_buffer_字符串",
-            "program": "${workspaceFolder}/5_buffer_string.js",
+            "program": "${workspaceFolder}/Buffer/5_buffer_string.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -53,7 +54,7 @@
             "type": "node",
             "request": "launch",
             "name": "6_buffer转字符串",
-            "program": "${workspaceFolder}/6_buffer_to_string.js",
+            "program": "${workspaceFolder}/Buffer/6_buffer_to_string.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -62,7 +63,7 @@
             "type": "node",
             "request": "launch",
             "name": "7_buffer读取文件",
-            "program": "${workspaceFolder}/7_buffer_io_file.js",
+            "program": "${workspaceFolder}/Buffer/7_buffer_io_file.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
