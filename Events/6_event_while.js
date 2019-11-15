@@ -2,8 +2,6 @@ const events = require('events');
 const emitter = new events.EventEmitter();
 const test = () => console.log('test');
 
-const test1 = () => console.info('test1')
-
 /** 例一 */
 // emitter.on('test', function() {
 //     test();
@@ -15,7 +13,7 @@ const test1 = () => console.info('test1')
 /** 例二 */
 emitter.on('test', function() {
     test();
-    emitter.on('test', test1);
+    emitter.on('test', test);
 })
 
 emitter.emit('test');
