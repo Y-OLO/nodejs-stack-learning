@@ -5,3 +5,6 @@ console.log(buf.length); // 24
 console.log(buf.toString('UTF-8', 0, 9)); // Node.js �
 
 console.log(buf.toString('UTF-8', 0, 11)); // Node.js 技
+
+const buf2 = Buffer.from('a', 'UTF-8');
+console.info(buf2)
